@@ -1,0 +1,46 @@
+/*NOTA:
+
+Colores usados:
+	#DBFFDB; #B8EAAD ; #F1FFF1; #FCD4F2; #B89BB1
+Alineación del texto usados (text-align):
+	center; justify*/
+body{
+	font-family:monospace;
+	background-color:#DBFFDB;
+	border:10px solid #B8EAAD;
+	padding:0em 2em;
+	}
+
+h1{
+	text-transform:uppercase;
+	text-align:center;
+	background-color:#B8EAAD;
+	margin-top:0.5em;
+	border:0.25em solid #F1FFF1;
+	
+	
+}
+h2{
+	background-color:#FCD4F2;
+	border:0.5em solid #B89BB1;
+	border-bottom:none;
+	
+	margin-bottom:0px; 
+	padding-left:1em;	
+}
+
+p{
+	text-align:justify;
+	border:0.5em solid #B89BB1;
+	border-top:none;
+	
+	margin-top:0em;
+	padding:1em;
+	
+}	
+
+address{
+	text-align:right;
+	border-top:2px dashed black;
+	
+}

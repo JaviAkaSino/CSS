@@ -1,0 +1,29 @@
+ul{border: 1px solid #CCC;margin:0.25em;padding-right:0.5em;float:left}
+
+/*ul{list-style:none; list-style-image:url(../../miau)
+
+Para que el párrafo siga a la altura del punto:
+list-style-position:inside
+
+list-style: inside none url("")
+
+}*/
+
+#l2{list-style: circle}
+
+#l3{list-style: square}
+
+#l4{list-style: lower-roman}
+
+#l5{list-style: lower-greek}
+
+#l6{list-style: upper-latin}
+
+#l7{list-style: lower-latin}
+
+#l8{list-style: armenian}
+
+#l9{list-style: upper-alpha}
+
+#l10{list-style: decimal-leading-zero}
+

@@ -1,0 +1,24 @@
+body {border:0.5em solid black;border-left-color:white;border-top-color:white;background-color: lightgrey; 
+  	font-family: sans-serif; margin:5px 15px;padding:1em;}
+
+h2 {text-align:center;border-bottom:3px solid white;font-weight:bold}
+
+p {background-color:white;border-bottom:3px solid black;border-right:6px solid black;width:80%;margin:2em auto;padding:0.25em;
+	line-height:1.5em;}
+
+p:first-letter{font-size:160%; background-color:lightgrey; padding:0.16em; margin-left:-5px}
+
+strong{border-top:2px solid black;border-bottom:2px solid black}
+
+em{color:white;background-color:lightgrey;font-weight:bold;padding:0 0.25em}
+
+.blanco{color:white}
+
+.grande{font-size:120%}
+
+.separado{margin-right:1.5em}
+
+.bkstr
+
+.whtem
+

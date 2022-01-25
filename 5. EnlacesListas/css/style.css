@@ -1,0 +1,25 @@
+/*Valores de CSS para 'a' ENLANCES*/
+
+a {color:green}
+
+/*a:link es lo mismo que a, pero al ser más selectivo, prevalece*/
+a:link{color:black}
+
+/*Justo cuando estás pulsándolo*/
+a:active{color:red}
+
+/*Cuando está ya visitado (morado)*/
+a:visited{color:orange}
+
+
+/*Al poner cursor encima, se le va el subrayado etc*/
+a:hover{text-decoration:none}
+
+
+/*color:red;text-decoration: overline-blue
+color:red;text-decoration:none;border-top:1px solid blue*/
+
+
+/*Valores de CSS para 'ul' UNORDERED LISTS*/
+
+ul{list-style-type:circle}

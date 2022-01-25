@@ -1,0 +1,25 @@
+*{margin:0;padding:0;box-sizing:inherit}
+
+html{box-sizing:border-box;height:100%; width:100%}
+
+body{height:98%; width:98%; position:relative; top:1% ;left:1%}
+
+div{border:1px solid lightgrey;padding-left:1.25%;padding-top:1.25%; float:left; width:47%; height:100%;}
+
+p{border:1px solid black; width:30%; height:30%; margin:1.25%;float:left;font-size:8vh; text-align:center;}
+
+.n{position:relative; top: 35%}
+
+#izq{display:none}
+
+#drc{visibility:hidden}
+
+#diviz{margin-left:3%}
+
+/*En caso de tener los números en div distintos, calcular con su tamaño y darle un margin negativo de la mitad de sus medidas y position absolute 50/50*/
+
+/*Con vh se trata el tamaño de la fuente de forma proporcional. 1 vh = 10% del alto, se puede hacer con vw, que es respecto al ancho*/
+
+/*En contenedor -> display:flex; justify-content: center    
+  En contenido -> align-self: center*/
+

@@ -1,0 +1,18 @@
+html{box-sizing:border-box;height:100%}
+
+body{height:100%}
+
+*{margin:0;padding:0;box-sizing:inherit}
+
+div{border:1px solid black;width:33.33%;height:33.33%; float:left}
+
+/*El texto busca verse, por ello cae debajo del d1, al darle un ancho*/
+
+#d1{border-color:red}
+
+#d2{border-color:green}
+
+#d3{border-color:orange}
+
+/*Para que, por ejemplo el pie de página se quede abajo, clear:both 
+"no quiero nada por la izquierda ni por la derecha"*/

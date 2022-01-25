@@ -1,0 +1,41 @@
+*{margin:0;padding:0;box-sizing:inherit}
+
+html{box-sizing:border-box;}/*height:100%; width:100%*/
+
+body{font-family:sans-serif;text-align:justify;}
+
+p{margin:1em}
+
+h1{text-transform:uppercase;background-color:lightblue;font-style:italic;text-align:right;margin-top:0px;margin-bottom:2px;letter-spacing:2px;}
+
+h2{background-color:lightblue; padding-left: 0.5em}
+
+table{height:3em; width:3em; text-align:center;border-collapse: collapse}
+
+a{color:black}
+
+#css{text-transform:lowercase; text-align:center; position:fixed; right:1%; bottom:1%}
+
+.azul{background-color:blue; color:white;}
+
+.verde{background-color:green; color:white}
+
+.rojo{background-color:red; color:white}
+
+.amarillo{background-color:yellow; color:black}
+
+#principal{width:60%; position:absolute; right:20%}
+
+#indice{font-size:75%;color:black;text-decoration:none;padding:0px;margin:0px;position:fixed;left:5px}
+
+#Mark{border: 2px solid black; margin: 1em 0;}
+
+#Bertrand{border: 2px solid black; margin: 1em 0 ; margin-top:2em}
+
+#Winston{border: 2px solid black; margin: 1em 0;margin-top:2em}
+
+#Fran{border: 2px solid black; margin: 1em 0;margin-top:2em}
+
+#Albert{border: 2px solid black; margin: 1em 0;margin-top:2em}
+
+address{font-size:75%;position:fixed;bottom:1px;left:1px}

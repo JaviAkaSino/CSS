@@ -1,0 +1,17 @@
+/* 	Tipo de letra usada: sans-serif.
+	Colores usados:#FDDBBD, #B0B0B0, #F2D0AB y #C9A568.
+	Tamaño de los cuadros: 13em x 13em
+*/
+body{background-color:#FDDBBD;font-family: sans-serif;padding:1em; width:100%}
+
+h1{text-align:center;color:#B0B0B0;text-transform:uppercase;}
+
+
+p{width:13em;height:13em;background-color:#F2D0AB;border:2px dashed #C9A568;font-style:oblique;text-align:justify;padding:0.5em;margin:0.5em;line-height:1.5em;float:left}
+
+p:first-letter { 
+  float:left;	
+  color: #C9A568; 
+  font-size: 300%; 
+  font-style: normal;
+}

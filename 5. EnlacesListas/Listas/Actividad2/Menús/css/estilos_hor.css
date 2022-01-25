@@ -1,0 +1,16 @@
+html{box-sizing:border-box}
+
+*{padding:0;margin:0;box-sizing:inherit}
+
+body{padding:1em}
+
+/*overflow:hidden para utilizar margin auto en vez de position*/
+
+ul{list-style:none;width:80%;position:absolute;left:10%;border:1px solid #7C7C7C;border-right:none}
+
+li{float:left;width:16.666666667%;border-right:1px solid #7C7C7C;background:url(../images/flecha_inactiva.png) no-repeat #F4F4F4 0.2em center;}
+
+li a{color:#333;text-decoration:none;padding:0.2em 0 0.2em 1.4em; display:block}
+
+li:hover{background:url(../images/flecha_activa.png) no-repeat #CCC 0.2em center;}
+

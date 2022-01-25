@@ -1,0 +1,51 @@
+/*p {text-decoration:underline}
+blockquote {color:blue;background-color:yellow;border:1px solid black}*/
+/*Se suele empezar por margin (margen de la caja) y padding (margen en la caja)*/
+*{margin:0;padding:0}
+
+p{margin:30px}
+
+em{color:orange}
+
+h1 {color:olive}
+
+/* ADYACENCIA: Los em que estén dentro de un strong que están dentro de un p*/
+p strong em{color:yellow}
+
+/*Hijos directos*/
+a > strong {color:orange}
+
+/*Los x que tienen delante un y. No se suele usar, mejor id*/
+p + h1 {color:orange}
+
+h1 + h1 {color:red}
+
+/**/
+*[class="enlace"]{font-size:2em}
+
+/**/
+imput[type="text"]{wicth:200px}
+
+/*A todos los x (class="x")...*/
+.verde{color:green}
+
+.grande {font-size:32px}
+
+#id{background-color:orange}
+
+/*Todo p con atributo clase*/
+p.clase
+
+/*Todo clase que se encuentre en un p*/
+p .clase
+
+/*Todos los p y los clase*/
+p, .clase
+
+/*
+margin --> margen lateral
+padding --> tamaño estructura, caja
+cursor:pointer -- Cambia cursor a dedito
+text-decoration:none -- Quita subrayado o lo que sea
+
+*/

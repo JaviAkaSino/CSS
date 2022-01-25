@@ -1,0 +1,8 @@
+#d1{background-color:lightgrey;width:50%;margin: 0 auto; border:1px solid black; overfloW:hidden}
+
+#s1{float:left}
+
+#s2{float:right}
+
+/*Al flotar todos los elementos del div, se vacía y se queda arriba
+Por ello, se utiliza en el padre overflow:hidden*/

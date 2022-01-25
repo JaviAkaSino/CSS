@@ -1,0 +1,41 @@
+
+
+
+
+.cuadrado{width:100px;height:100px;border: 2px solid blue;}
+
+.circulo{width:100px;height:100px;border: 2px solid red;border-radius:50%}
+
+.rombo{width:100px;height:100px;border: 2px solid orange;transform:rotate(45deg) skew(15deg,15deg)}
+
+.triangulo1{width:0;height:0;border-top:15px solid blue;border-right:15px solid transparent;border-left:15px solid transparent;}
+
+.triangulo2{width:0;height:0;border-top:15px solid transparent;border-right:15px solid orange;border-bottom:15px solid transparent;}
+
+.triangulo3{width:0;height:0;border-right:15px solid transparent;border-bottom:15px solid green;border-left:15px solid transparent;}
+
+.triangulo4{width:0;height:0;border-top:15px solid transparent;border-bottom:15px solid transparent;border-left:15px solid red;}
+
+.paralelogramo{width:100px;height:100px;border: 2px solid green;transform:skew(20deg);margin-left:20px}
+
+.trapecio1{height:100px;width:0px;border-bottom:100px solid transparent;border-left: 100px solid red}
+
+.trapecio2{height:100px;width:0px;border-right:100px solid red;border-bottom:100px solid transparent;}
+
+.trapecio3{height:100px;width:0px;border-left:100px solid red;border-top:100px solid transparent;}
+
+.trapecio4{height:100px;width:0px;border-right:100px solid red;border-top:100px solid transparent;}
+
+.trapecio5{height:0;width:100px;border-bottom:100px solid red;border-right:100px solid transparent;}
+
+.trapecio6{height:0;width:100px;border-top:100px solid red;border-right:100px solid transparent;}
+
+.trapecio7{height:0;width:100px;border-bottom:100px solid red;border-left:100px solid transparent;}
+
+.trapecio8{height:0;width:100px;border-top:100px solid red;border-left:100px solid transparent;}
+
+
+
+
+
+

@@ -1,0 +1,45 @@
+
+body{background-color:lightyellow}
+
+/*padding- top, left, right, bottom*/
+/*Si pones 1 tamaño las 4*/
+/*Si pones 2, la primera arriba abajo, la segunda, derecha izquierda*/
+/*Si pones 3, arriba, derecha izquierda, abajo*/
+/*Si pones 4, en orden de reloj, arriba, derecha, abajo e izquierda*/
+p{padding:2em 4em; 
+
+/*Estilos: solid, dashes (rayitas separads), dotted (puntos juntos), none (para quitar alguno), hidden(no se ve pero ocupa hueco), double(doble), inset y outsest (botones)*/
+border:blue 2px dotted;
+
+/*border-top-color:blue; border-top-width:2px; border-top-style:solid*/
+
+/*Color*/
+background-color:lightblue;
+/*Imagen a pelo se repite mosaico*/
+background-image:url("../img/color_azul.png"); 
+/*no-repeat, repeat-x, repeat-y,*/
+background-repeat:no-repeat;
+/*De serie esta en (0,0), poner porcentajes, pixeles*/
+background-position:center center;
+/**/
+width:90%;
+height:90%;
+
+/*background:lightblue url("../img/color_azul.png") no-repeat center center;*/
+
+/*Cuando hay unión de dos márgenes, sólo se coje el más grande*/
+margin:3em;
+/*Los margin top y buttom no valen para elem. de línea*/
+#esp{margin:5em};
+}
+
+strong{border:solid black 1px;
+	padding:0.5em;
+	margin-right:3em;
+	margin-left:3em;
+}
+/*Ancho y alto no se puede, salvo imágenes*/
+img{width:50px}
+
+
+
