@@ -1,0 +1,13 @@
+/*.enlace{border:none;background:none;color:blue;text-decoration:underline;cursor:pointer}
+
+label, button{display:block;margin:0.5em 0}
+
+input{padding:.2em}
+
+input:focus{border:3px black solid;background-color:#999}*/
+
+div{margin:.5em 0}
+
+/*Un elemento se convierte en bloque al flotarlos*/
+label{width:15%;float:left}
+

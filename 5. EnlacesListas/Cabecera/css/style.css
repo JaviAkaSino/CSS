@@ -1,0 +1,16 @@
+html{box-sizing:border-box}
+
+*{margin:0;padding:0;box-sizing:inherit}
+
+/*Cuando el contenido es una sola línea, para centrar vertical:*/
+h1{width:100%; height:120px;line-height:120px;text-align:center;color:white;font-size:2.5em;background:url("../imagenes/fondo1.jpg");}
+
+#menu{width:100%;height:30px;background:url("../imagenes/boton-menu.jpg")}
+
+#menu ul{width:40%;margin:0 auto;list-style:none;}
+
+#menu ul li{width:25%;float:left;}
+
+#menu ul li a{display:block;text-align:center;color:white;text-decoration:none;line-height:30px}
+
+#menu ul li a:hover{background:url("../imagenes/boton-menu2.jpg");color:black}

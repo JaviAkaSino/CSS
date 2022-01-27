@@ -1,0 +1,10 @@
+table,td{border:1px solid black}
+
+/*Propiedad de las tablas*/
+table{width:50%;margin:5% auto;text-align:center;empty-cells:hide}
+
+#t1{border-collapse:collapse}
+
+caption{caption-side:bottom}
+
+#t2{border-spacing:5px}
