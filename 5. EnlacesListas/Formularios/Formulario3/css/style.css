@@ -2,16 +2,32 @@ html{box-sizing:border-box}
 
 *{padding:0;margin:0;box-sizing:inherit}
 
-fieldset{width:48%;float:left;margin:3% 1%}
+h1{text-transform:uppercase;text-align:center;background-color:#DDD;margin-bottom:0.5em}
 
-div{margin:5% 3%;width:100%}
+body{font-family:sans-serif}
 
-label{display:block;}
+legend{background-color:white;border:1px solid #DDD; padding:0 0.3em}
 
-button{margin:0 2%}
+fieldset{background-color:#DDD; padding:0.5em}
 
-.smll{width:15%}
+.ext > div{margin-top:0.5em}
 
-.med{width:35%}
+div div{overflow:hidden;}
 
-.big{width:50%}
+div div div{float:left}
+
+label{display:block}
+
+#esp{width:100%}
+
+#domicilio{width:15%; float:left}
+
+#calle{width:85%; float:left}
+
+.primero{width:50%}
+
+.ext{width:50%;float:left}
+
+.roja{color:red;text-decoration:underline}
+
+#botones{clear:both;text-align:right;}

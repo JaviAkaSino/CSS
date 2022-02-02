@@ -1,67 +1,116 @@
 <!DOCTYPE html>
 <html lang="es">
 	<head>
-		<title>Formulario 2</title>
+		<title>Formulario 3</title>
 		<meta charset="UTF-8"/>
 		<link href="css/style.css" rel="stylesheet"/>
 	</head>
 	
 	<body>
 
+		<h1>EJEMPLO DE FORMULARIO</h1>
 		<form action="index.html" method="post" enctype="multipart/form-data">
 			<fieldset>
-			<legend>Alta al servicio</legend>	
-			
-				<div>
-				<label for="nombre">Nombre: </label>
-				<input class="med" type="text" id="nombre" name="nombre"/>
+			<legend>Datos Personales</legend>	
+
+				<div class="ext">
+					<div>
+						<div class="primero">
+							<label for="apellidos"><span class="roja">A</span>pellidos: </label>
+							<input type="text" id="apellidos" name="apellidos"/>
+						</div>
+				
+						<div>
+							<label for="nombre">N<span class="roja">o</span>mbre: </label>
+							<input class="" type="text" id="nombre" name="nombre"/>
+						</div>
+					</div>
+					
+					<div>
+						<div class="primero">
+							<label for="nacido"><span class="roja">N</span>acido en: </label>
+							<input class="" type="text" id="nacido" name="nacido"/>
+						</div>
+				
+						<div>
+						<label for="provincia">Provincia: </label>
+							<select>
+								<option selected value="valencia">Valencia</option>
+								<option value="castellon">Castellon</option>
+								<option value="alicante">Alicante</option>
+							</select>
+						</div>
+						
+					</div>
+					
+					
+					<div id="esp">
+						<label for="domicilio">Do<span class="roja">m</span>icilio: </label>
+						<select name="domicilio" id="domicilio">
+							<option selected disabled></option>
+							<option value="Calle">Calle</option>
+							<option value="Avenida">Avenida</option>
+						
+						</select>
+						
+						<input type="text" id="calle" name="calle"/>
+					</div>
+					
+					
+					<div>
+						<div class="primero">
+							<label for="localidad"><span class="roja">L</span>ocalidad: </label>
+							<input class="" type="text" id="localidad" name="localidad"/>
+						</div>
+				
+						<div>
+						<label for="provincia2">Provincia: </label>
+							<select>
+								<option selected value="valencia">Valencia</option>
+								<option value="castellon">Castellon</option>
+								<option value="alicante">Alicante</option>
+							</select>
+						</div>
+					</div>
+					
 				</div>
 				
-				<div>
-				<label for="apellidos">Apellidos: </label>
-				<input class="big" type="text" id="apellidos" name="apellidos"/>
+					
+
+
+
+				<div class="ext">			
+					<div>
+						<label for="DNI"><span class="roja">D</span>NI: </label>
+				<input type="text" id="DNI" name="DNI"/>
+					</div>
+					
+					<div>
+						<label for="fecha"><span class="roja">F</span>echa nacimiento (dd/mm/aaaa): </label>
+				<input type="text" id="fecha" name="fecha"/>
+					</div>
+					
+					<div>
+						<label for="cp"><span class="roja">C</span>ódigo Postal: </label>
+				<input type="text" id="cp" name="cp"/>
+					</div>
+					
+					<div>
+						<label for="tlfn"><span class="roja">T</span>eléfono: </label>
+				<input type="text" id="tlfn" name="tlfn"/>
+					</div>		
 				</div>
 				
-				<div>
-				<label for="DNI">DNI: </label>
-				<input class="smll" type="text" id="DNI" name="DNI"/>
-				</div>
 				
-				<div>
-				<label for="contraseña">Contraseña: </label>
-				<input class="med" type="password" id="contraseña" name="contraseña"/>
+				
+				<div id="botones">
+					<input type="reset" value="Borrar todo"/>
+					<input type="submit" value="Enviar"/>
 				</div>
-			
 			
 
-			</fieldset>	
-
-			<fieldset>
-			<legend>Datos de contacto</legend>	
-			
-				<div>
-				<label for="tlfn">Teléfono: </label>
-				<input class="smll" type="text" id="tlfn" name="tlfn"/>
-				</div>
-				
-				<div>
-				<label for="email">Email: </label>
-				<input class="big" type="text" id="email" name="email"/>
-				</div>
-				
-				<div>
-				<label for="direccion">Dirección: </label>
-				<input class="med" type="text" id="direccion" name="direccion"/>
-				</div>
-				
-				<div>
-				<label for="cp">Código Postal: </label>
-				<input class="smll" type="password" id="cp" name="cp"/>
-				</div>
-			
 			</fieldset>
-				
-				<button class="enlace"name="boton1">Darme de alta</button>
+
 		</form>
 			
 	</body>
