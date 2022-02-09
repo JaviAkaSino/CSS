@@ -10,10 +10,10 @@ body{background-color:#CCC;font-family:sans-serif;text-align:center}
 
 #centro{overflow:hidden;margin:1em 0}
 
-#izq{width:180px;background-color:red;float:left;font-size:10pt;margin-right:1em}
+#izq{width:180px;background-color:red;float:left;font-size:10pt;margin-right:1em;}
 
-#cen{width:60%;background-color:green;overflow:hidden;float:left;font-size:12pt;margin-right:1em;text-align:justify;}
+#cen{background-color:green;overflow:hidden;font-size:12pt;text-align:justify;}
 
-#der{width:18%;overflow:hidden;background-color:lightblue;font-size:10pt;}
+#der{width:18%;float:right;overflow:hidden;background-color:lightblue;margin-left:1em;font-size:10pt;}
 
 #pie{background-color:brown;font-size:8pt;color:yellow}
