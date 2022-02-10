@@ -1,0 +1,10 @@
+html{box-sizing:border-box}
+
+*{margin:0;padding:0;box-sizing:inherit}
+
+#cabarriba{height:115px;width:100%;background:url("../Imagenes/fondo.jpg")}
+
+#logo{width:30%}
+
+#titulo{width:30%}
+
