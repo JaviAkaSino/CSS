@@ -2,9 +2,32 @@ html{box-sizing:border-box}
 
 *{margin:0;padding:0;box-sizing:inherit}
 
-#cabarriba{height:115px;width:100%;background:url("../Imagenes/fondo.jpg")}
+/*body{width:100%;height:100%}*/
 
-#logo{width:30%}
+#cabarriba{height:116px;width:100%;background:url("../Imagenes/fondo.jpg")}
 
-#titulo{width:30%}
+#cabarriba div{float:left}
 
+#logo{width:; margin-left:35px;margin-right:15%}
+
+#titulo{}
+
+#cababajo{background-color:#016F00;height:40px;}
+
+ul{list-style:none; width:100%; height:40px;}
+
+ul li{float:left}
+
+#ies{width:25%}
+
+#idioma{width:20%}
+
+#usted{width:55%}
+
+#contenedor{background-color:#FFF7D9;}
+
+#lateral{width:250px; border: solid 1px black;}
+
+
+
+#puntitos{background:url("../Imagenes/tres_puntos.jpg");height:4px}
