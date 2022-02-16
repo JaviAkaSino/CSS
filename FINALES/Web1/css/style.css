@@ -2,32 +2,51 @@ html{box-sizing:border-box}
 
 *{margin:0;padding:0;box-sizing:inherit}
 
-/*body{width:100%;height:100%}*/
+body{background-color:#FFF7D9}
 
-#cabarriba{height:116px;width:100%;background:url("../Imagenes/fondo.jpg")}
+#contenedor{width:100%}
 
-#cabarriba div{float:left}
+#cabecera{height:116px;width:100%;background:url("../Imagenes/fondo.jpg");text-align:center}
 
-#logo{width:; margin-left:35px;margin-right:15%}
+#logo{float:left;margin-left:35px}
 
 #titulo{}
 
-#cababajo{background-color:#016F00;height:40px;}
+#menu{width:100%;height:40px;background-color:#016F00;overflow:hidden}
+/*overflow:hidden --> Si flotan todos sus elementos, se mantiene como elemento de bloque y no se vacía*/
+#menu ul{list-style:none}
 
-ul{list-style:none; width:100%; height:40px;}
+#menu ul li{float:left;border-right:1px solid black}
 
-ul li{float:left}
+#menu ul li a{text-decoration:none;color:white;display:block;line-height:40px;padding:0 0.8em}
 
-#ies{width:25%}
+#menu span{float:right;line-height:40px;color:white;padding-right:0.8em}
 
-#idioma{width:20%}
+#menu span a{text-decoration:none;color:white}
 
-#usted{width:55%}
+#enlace1{font-size:20px}
 
-#contenedor{background-color:#FFF7D9;}
+#centro{width:100%;padding:2em 0.8em 0}
 
-#lateral{width:250px; border: solid 1px black;}
+#lateral{width:25%; float:left}
 
+#cuerpo{overflow:hidden}
+
+#pie{width:90%;height:70px;clear:both;background-color:#016F00;margin:1em auto 1px}
+/*clear:both --> No quiero nada flotado a derecha ni iaquierda*/
+.blanco{background:white;border-radius:10px;padding:0.5em;margin-bottom:1em}
+
+.blanco h3{display:inline}
+
+.blanco img{vertical-align:bottom}
+
+#lateral form {border-top:1px solid #CCC;padding:1em;overflow:hidden}
+
+#name, #password{width:100%}
+
+#entrar{width:19%;float:left;margin-right:2%;color:white;background-color:#24ad23;padding:0.25em;border-radius:10px}
+/*Ignora el box-sizing porque son elementos de línea, al flotarlos, se convierten a bloque*/
+#olvidar{width:79%;float:left;color:white;background-color:#016F00;padding:0.25em;border-radius:10px}
 
 
 #puntitos{background:url("../Imagenes/tres_puntos.jpg");height:4px}
