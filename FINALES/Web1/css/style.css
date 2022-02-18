@@ -26,17 +26,17 @@ body{background-color:#FFF7D9}
 
 #enlace1{font-size:20px}
 
-#centro{width:100%;padding:2em 0.8em 0}
+#centro{width:100%;padding:2em 0.8em 0;overflow:hidden;}
 
 #lateral{width:25%; float:left}
 
-#cuerpo{overflow:hidden}
+#cuerpo{overflow:hidden; padding: 0 2em 0}
 
 #pie{width:90%;height:70px;clear:both;background-color:#016F00;margin:1em auto 1px}
 /*clear:both --> No quiero nada flotado a derecha ni iaquierda*/
-.blanco{background:white;border-radius:10px;padding:0.5em;margin-bottom:1em}
+.blanco{border:1px solid #CCC;background:white;border-radius:6px;padding:0.5em;margin-bottom:1em}
 
-.blanco h3{display:inline}
+.blanco h3{display:inline; color:#828799}
 
 .blanco img{vertical-align:bottom}
 
@@ -48,5 +48,38 @@ body{background-color:#FFF7D9}
 /*Ignora el box-sizing porque son elementos de línea, al flotarlos, se convierten a bloque*/
 #olvidar{width:79%;float:left;color:white;background-color:#016F00;padding:0.25em;border-radius:10px}
 
+#puntitos{background:url("../Imagenes/tres_puntos.jpg");height:16px}
 
-#puntitos{background:url("../Imagenes/tres_puntos.jpg");height:4px}
+#cuerpo h2{margin: 1em 0 2em; color:#828799}
+
+.fondo{height: 60px; padding: 0;width:75%}
+
+.fondo p{padding: 0 0 0 55px;line-height:60px}
+
+#admin p{background:url("../Imagenes/adminis.jpg") no-repeat 0 center;}
+
+#admin p:hover{background:#016F00 url("../Imagenes/adminis_neg.jpg") no-repeat 0 center;color: white;border-radius:5px;}
+
+#bio p{background:url("../Imagenes/biologia.jpg") no-repeat 0 center;}
+
+#bio p:hover{background:#016F00 url("../Imagenes/biologia_neg.jpg") no-repeat 0 center;color: white;border-radius:5px;}
+
+#clasicas p{background:url("../Imagenes/clasicas.jpg") no-repeat 0 center;}
+
+#clasicas p:hover{background:#016F00 url("../Imagenes/clasicas_neg.jpg") no-repeat 0 center;color: white;border-radius:5px}
+
+#eco p{background:url("../Imagenes/economia.jpg") no-repeat 0 center}
+
+#eco p:hover{background:#016F00 url("../Imagenes/economia_neg.jpg") no-repeat 0 center;color: white;border-radius:5px}
+
+#tecno p{background:url("../Imagenes/tecnologia.jpg") no-repeat 0 center}
+
+#tecno p:hover{background:#016F00 url("../Imagenes/tecnologia_neg.jpg") no-repeat 0 center;color: white;border-radius:5px}
+
+#reli p{background:url("../Imagenes/religion.jpg") no-repeat 0 center}
+
+#reli p:hover{background:#016F00 url("../Imagenes/religion_neg.jpg") no-repeat 0 center;color: white;border-radius:5px}
+
+#moodle p{background:url("../Imagenes/moodle.jpg") no-repeat 0 center}
+
+#moodle p:hover{background:#016F00 url("../Imagenes/moodle_neg.jpg") no-repeat 0 center;color: white;border-radius:5px}
