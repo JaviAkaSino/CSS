@@ -4,9 +4,9 @@ html{box-sizing:border-box}
 
 body{background:url("../Imagenes/fondo.jpg")}
 
-#contenedor{width:830px;margin: 0 auto;}
+#contenedor{width:830px;margin: 0 auto;font-family:Arial;background:#185512}
 
-#cabecera{width:100%;height:97px;background:url("../Imagenes/cabacera.jpg");}
+#cabecera{width:100%;height:97px;background:url("../Imagenes/cabacera.jpg")}
 
 #menu{overflow:hidden; background:url("../Imagenes/fondo_menu.jpg");height:33px}
 
@@ -18,7 +18,21 @@ body{background:url("../Imagenes/fondo.jpg")}
 
 #menu ul li a:hover{background:#c8dcc1;height:29px;color:black}
 
-#login{}
+#login{background:#0f340b}
+
+#logiz{}
+
+#nomlabel{}
+
+#nominput{}
+
+#logce{}
+
+#conlabel{}
+
+#coninput{}
+
+#logde{}
 
 #cuerpo{}
 
