@@ -1,0 +1,352 @@
+/*Esquema visual*/
+html{
+    box-sizing:border-box;
+}
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:inherit;
+}
+
+body{
+    color:#a8a5a0;
+}
+
+#contenedor{
+    width:962px;
+    margin:0 auto;
+    background-color:#EDF0F5;
+}
+
+#cabecera{
+    width:100%;
+    height:162px;
+    background: url("../images/cabecera.jpg")
+}
+
+#menu{
+    width:100%;
+    height:40px;
+    background-color:#231F20;
+}
+
+#menu ul{
+    overflow:hidden;
+    width:100%;
+    list-style:none;
+    line-height:40px;
+}
+
+#menu li{
+    float:left;
+}
+
+/*Contenido del menú*/
+#menu a{
+    display:block;
+    text-decoration:none;
+    color:#a8a5a0;
+    padding-left:30px;
+}
+
+#menu #li_esp{
+    float:right;
+}
+
+#li_ini a{
+    background:url("../images/menu/inicio_ico_a.jpg") no-repeat left center;
+}
+
+#li_ini a:hover{
+    background:black url("../images/menu/inicio_ico_b.jpg") no-repeat left center;
+    color:white;
+}
+
+#li_lig a{
+    background:url("../images/menu/liga_ico_a.jpg") no-repeat left center;
+}
+
+#li_lig a:hover{
+    background:black url("../images/menu/liga_ico_b.jpg") no-repeat left center;
+    color:white;
+}
+
+#li_equ a{
+    background:url("../images/menu/equipo_ico_a.jpg") no-repeat left center;
+}
+
+#li_equ a:hover{
+    background:black url("../images/menu/equipo_ico_b.jpg") no-repeat left center;
+    color:white;
+}
+
+#li_mer a{
+    background:url("../images/menu/mercado_ico_a.jpg") no-repeat left center;
+}
+
+#li_mer a:hover{
+    background:black url("../images/menu/mercado_ico_b.jpg") no-repeat left center;
+    color:white;
+}
+
+#li_jor a{
+    background:url("../images/menu/jornada_ico_a.jpg") no-repeat left center;
+}
+
+#li_jor a:hover{
+    background:black url("../images/menu/jornada_ico_b.jpg") no-repeat left center;
+    color:white;
+}
+
+#li_jug a{
+    background:url("../images/menu/jugadores_ico_a.jpg") no-repeat left center;
+}
+
+#li_jug a:hover{
+    background:black url("../images/menu/jugadores_ico_b.jpg") no-repeat left center;
+    color:white;
+}
+
+#li_esp a{
+    background:url("../images/menu/menu_ico_a.jpg") no-repeat right center;
+}
+
+#li_esp a:hover{
+    background:black url("../images/menu/menu_ico_b.jpg") no-repeat right center;
+    color:white;
+}
+
+#menu #li_esp a{
+    padding:0 30px 0 0;
+}
+#menu a {
+    margin:0 0.5em 0 0.5em;
+}
+
+/*Contenido dentro del cuerpo parte de arriba*/
+#centro_arriba{
+    overflow:hidden;
+    width:100%;
+}
+
+#centro_arriba > div {
+    width:50%; 
+    float:left;
+}
+#centro_arriba #img_ali img{
+    width:100%;
+}
+
+#for_ali form{
+    background:white;
+    padding:1em;
+}
+
+#for_ali {
+    padding:1em;
+}
+
+.titulo{
+    overflow:hidden;
+    width:100%;
+}
+
+.titulo h2{
+    float:left;
+}
+
+.titulo img{
+    float:right;
+}
+
+#for_ali p{
+    text-align:center;
+}
+
+#for_ali p.align_izq{
+    text-align:left;
+}
+
+label{
+    background-color:#ECEDF1;
+    padding:0.3em 0.6em;
+    border-radius:40%;
+}
+
+label:hover{
+    background-color:#AAA;
+    padding:0.3em 0.6em;
+    border-radius:40%;
+    color:white;
+}
+
+#for_ali #esp_par{
+    width:100%;
+    background-color:#CCC;
+    border:1px solid #CCC;
+}
+#for_ali #esp_par input{
+    width:95%;
+    background-color:#3B9FF5;
+    color:white;
+    padding:1em;
+    border-radius:12px;
+}
+
+/*Contenido dentro del cuerpo parte de abajo*/
+
+#centro_abajo{
+    background-color:white;
+    border:1px solid grey;
+    border-radius:2px; 
+    width:98%;
+    margin:0 auto;
+    overflow:hidden;
+    padding:2%;
+}
+
+#centro_abajo > div {
+    width:33.33333%; 
+    float:left;
+    overflow:hidden;
+    margin:2em 0;
+}
+
+#centro_abajo .jugador{
+    width:55%; 
+    float:left;
+    overflow:hidden;
+}
+
+#centro_abajo .vender{
+    width:45%; 
+    float:left;
+}
+
+#centro_abajo .izq_jug{
+    width:15%; 
+    float:left;
+    text-align:center;
+    margin-top:0.2em;
+}
+
+#centro_abajo .centro_jug{
+    width:35%; 
+    float:left;
+    position:relative;
+}
+
+#centro_abajo .der_jug{
+    width:50%; 
+    float:left;
+    line-height:12px;
+    padding-left:0.2em;
+}
+
+#centro_abajo .izq_jug img{
+    width:80%;
+}
+
+#centro_abajo .centro_jug img{
+    width:100%;
+    border:2px solid green;
+    border-radius:50%;
+}
+
+#centro_abajo .izq_jug .posicion{
+    color:black;
+    font-size:10px;
+    border-radius:50%;
+    background-color:yellow;
+    padding:0.2em;
+}
+
+#centro_abajo .der_jug  div.nombre{
+    font-size:16px;
+    margin-top:.2em;
+}
+
+#centro_abajo .der_jug .peq{
+    font-size:10px;
+}
+
+#centro_abajo .der_jug .puntos{
+    margin-top:0.4em; 
+    font-size:12px;
+}
+
+#centro_abajo .der_jug .puntos span{
+    border:1px solid white;
+    border-left:none;
+    padding:0 0.1em;
+}
+
+#centro_abajo .der_jug .puntos .ultimo{
+    border-top-right-radius:25%;
+    border-bottom-right-radius:25%; 
+}
+
+#centro_abajo .der_jug .puntos .primero{
+    border-left:1px solid white;
+    border-top-left-radius:25%;
+    border-bottom-left-radius:25%;
+}
+
+#centro_abajo .centro_jug .lesion{
+    width:18px;
+    border:1px solid red;
+    border-radius:50%;
+    position:absolute;
+    left:0;
+    bottom:0;
+}
+
+#centro_abajo .centro_jug .puntuacion{
+    background-color:black;
+    color:white;
+    font-size:12px;
+    border-radius:25%;
+    padding:0 0.1em;
+    position:absolute;
+    right:0;
+    bottom:0;
+}
+
+#centro_abajo #distinto {
+    width:100%;
+    display:block;
+    margin:0;
+}
+
+.vender label{
+    display:inline-block; 
+    margin-top:1em; 
+    margin-left:2em;
+}
+
+#pie{
+    text-align:right;
+    line-height:50px;
+    height:50px;
+    clear:both;
+    border-bottom:1px solid grey;
+    padding:0 1%;
+}
+
+.verde{
+    color:#12B100;
+}
+
+.verde_f{
+    background-color:#12B100;
+    color:white;
+}
+
+.img_prueba img{
+    width: 12px;
+}
+
+
+
+

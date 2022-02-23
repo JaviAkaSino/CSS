@@ -1,0 +1,83 @@
+html{box-sizing:border-box}
+
+*{margin:0;padding:0;box-sizing:inherit}
+
+body{font-family:arial}
+
+#contenedor{width:962px;margin: 0 auto}
+
+#cabecera{background:url("../images/cabecera.jpg")}
+
+#menu{background:#231f20;height:45px}
+
+#menu ul{list-style:none;padding-left:1em}/*height:100%*/
+
+#menu ul li {display:block;float:left;overflow:hidden;}
+
+#menu ul li a{text-decoration:none;color:#aaa;line-height:45px;padding:2px 0.7em 2px 2em}
+
+#menu ul li a:hover{color:white}
+
+#menu #istancity{padding-right:2em;float:right;background:url("../images/menu/menu_ico_a.jpg") no-repeat right center}
+
+#menu #istancity:hover{color:white;background:black url("../images/menu/menu_ico_b.jpg") no-repeat right center}
+
+#inicio{background:url("../images/menu/inicio_ico_a.jpg") no-repeat left center}
+
+#inicio:hover{background:black url("../images/menu/inicio_ico_b.jpg") no-repeat left center}
+
+#liga{background:url("../images/menu/liga_ico_a.jpg") no-repeat left center}
+
+#liga:hover{background:black url("../images/menu/liga_ico_b.jpg") no-repeat left center}
+
+#equipo{background:url("../images/menu/equipo_ico_a.jpg") no-repeat left center}
+
+#equipo:hover{background:black url("../images/menu/equipo_ico_b.jpg") no-repeat left center}
+
+#mercado{background:url("../images/menu/mercado_ico_a.jpg") no-repeat left center}
+
+#mercado:hover{background:black url("../images/menu/mercado_ico_b.jpg") no-repeat left center}
+
+#jornada{background:url("../images/menu/jornada_ico_a.jpg") no-repeat left center}
+
+#jornada:hover{background:black url("../images/menu/jornada_ico_b.jpg") no-repeat left center}
+
+#jugadores{background:url("../images/menu/jugadores_ico_a.jpg") no-repeat left center}
+
+#jugadores:hover{background:black url("../images/menu/jugadores_ico_b.jpg") no-repeat left center}
+
+#centop{background:#edf0f5;width:100%;overflow:hidden}
+
+#centop > div{float:left}
+
+#campo{width:59%;padding:0 5% 0}
+
+#campo img{width:100%}
+
+#alineacion{width:40%;padding: 1em;margin:1.5em 0.5em 0 0;background:white;color:#777;border:1px solid #ccc}
+
+#alitit{overflow:hidden}
+
+#alitit h3{float:left}
+
+#alitit img{float:right}
+
+#alineacion p{color:#555; font-size:0.7em;margin:2em 0}
+
+.acenter{text-align:center}
+
+#alineacion label{padding:0.5em;background:#ecedf1;border-radius:35%;font-size:80%;color:black}
+
+#alineacion label:hover{background:#aaa}
+
+#conteboton{background:#ecedf1;width:100%}
+
+#guardar{background:#3B9FF5;width:95%;padding:1em;border-radius:12px}
+
+
+
+
+#cenbot{}
+
+
+#pie{background:#ecedf1}	
