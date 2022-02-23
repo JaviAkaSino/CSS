@@ -2,7 +2,7 @@ html{box-sizing:border-box}
 
 *{margin:0;padding:0;box-sizing:inherit;}
 
-body{background:url("../Imagenes/fondo.jpg")}
+body{background:url("../Imagenes/fondo.jpg");background-size:cover}
 
 #contenedor{width:830px;margin: 0 auto;font-family:Arial;background:#185512}
 
@@ -18,11 +18,13 @@ body{background:url("../Imagenes/fondo.jpg")}
 
 #menu ul li a:hover{background:#c8dcc1;height:29px;color:black}
 
-#login{background:#0f340b}
+#login{background:#0f340b;margin:1em 0;overflow:hidden;width:100%}
+
+#login form > div{border: 2px solid red}
 
 #logiz{}
 
-#nomlabel{}
+#nomlabel{color:white}
 
 #nominput{}
 
@@ -34,19 +36,29 @@ body{background:url("../Imagenes/fondo.jpg")}
 
 #logde{}
 
-#cuerpo{}
+#cuerpo{width:100%;overflow:hidden;padding:0 0.25em 1em}
 
-#izquierda{}
+#cuerpo > div{float:left;}
 
-#foto{}
+#cuerpo p img{width:100%}
+
+#cuerpo p img.mitad{width:50%;float:left}
+
+h4{color:white;background:#0f340b;border-top-right-radius:5px}
+
+#izquierda{width:60%}
+
+#foto{border:1px solid black}
 
 #registro{}
 
-#derecha{}
+#derecha{width:37%;border:1px solid black;margin-left:3%}
 
-#equipos{}
+#equipos p{border:1px solid black}
 
-#publi{}
+#publi{width:100%}
 
-#pie{}
+#publi p{}
+
+#pie{height:66px;background:url("../Imagenes/fondo_pie.jpg");text-align:center;padding:1em;color:white;font-sizze:0.8em;line-height:1.5em}
 
