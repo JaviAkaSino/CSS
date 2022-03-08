@@ -22,17 +22,27 @@ body{background:url("../Imagenes/fondo.jpg");background-size:cover}
 
 #login form > div{border: 2px solid red}
 
-#logiz{}
+#acceso label, #acceso input{float:left;}
+#acceso label{margin-left:2em}
+#acceso input{margin:0.5em 7em 0em 2em}
+#acceso input{width:10%;}
+#acceso form{background-color:#0f340b;color:white;overflow:hidden;padding:0.25em 0}
+#acceso a{font-size:12px; color:white;}
+#acceso {background-color:#175512;overflow:hidden;padding:12px 0;}
 
-#nomlabel{color:white}
+.form{background-color:#c3e3be;border-bottom:#0f340b solid 1px;padding:0.5em;}
 
-#nominput{}
+.form input[type="text"],.form input[type="password"]{width:50%;float:right}
 
-#logce{}
+.form_esp {background-color:#0f340b;padding:0.5em;}
+.form_esp input {border:none;padding:0.25em}
+.verde_claro{color:white; background-color:#33a92e}
 
-#conlabel{}
+#izq label[for="nombre"],#izq label[for="apellido"],
+#izq label[for="usuario"],#izq label[for="clave"],
+#izq label[for="clave2"],#izq label[for="email"]{color:#0f340b;font-weight:bold}
 
-#coninput{}
+label span{font-size:0.8em;font-weight:normal}
 
 #logde{}
 
@@ -52,7 +62,7 @@ h4{color:white;background:#0f340b;border-top-right-radius:5px}
 
 #registro{}
 
-#derecha{width:37%;border:1px solid black;margin-left:3%}
+#derecha{width:37%;border:1px solid black;margin-left:3%;color:white}
 
 #equipos p{border:1px solid black}
 
@@ -62,3 +72,9 @@ h4{color:white;background:#0f340b;border-top-right-radius:5px}
 
 #pie{height:66px;background:url("../Imagenes/fondo_pie.jpg");text-align:center;padding:1em;color:white;font-sizze:0.8em;line-height:1.5em}
 
+
+#pie{height:66px;clear:both;background:url(../Imagenes/fondo_pie.jpg);padding:1em}
+.centrar{text-align:center}
+#pie {color:white;font-size:0.9em;line-height:1.5em}
+#pie p a{color:white}
+#pie p a.amarillo,.amarillo{color:yellow}
